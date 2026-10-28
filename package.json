@@ -1,0 +1,11 @@
+{
+  "name": "maquiavelo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Maquiavelo: chat de estrategia con varios modelos y conectores en un backend aparte.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "node test/connectors.test.js"
+  }
+}
